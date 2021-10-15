@@ -1,0 +1,10 @@
+.bt_top
+{
+    background-image: url('../Assets/icons/icon_top.svg');
+    background-size: 67px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 40px;
+}

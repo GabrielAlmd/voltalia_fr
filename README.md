@@ -1,3 +1,8 @@
+# Voltalia FR display React App
+
+This project was build to make a slide show in-store of Voltalia's products available for sale in France stores.\
+
+Above is standard README by React Apps
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
