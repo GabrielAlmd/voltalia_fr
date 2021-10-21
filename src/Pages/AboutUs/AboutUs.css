@@ -1,0 +1,152 @@
+#energies {
+    padding-top: 114px;
+    padding-left: 70px;
+}
+
+#solar {
+    width: 145px;
+    height: 197px;
+}
+
+#wind {
+    width: 200px;
+    height: 251px;
+}
+
+#hydro {
+    width: 126px;
+    height: 188px;
+}
+
+#bio {
+    width: 184px;
+    height: 191px;
+}
+
+#stockage {
+    width: 196px;
+    height: 194px;
+}
+
+#install {
+    width: 136px;
+    height: 164px;
+}
+
+#projects {
+    width: 117px;
+    height: 156px;
+}
+
+#world {
+    width: 149.39px;
+    height: 149.39px;
+}
+
+#tec {
+    width: 157px;
+    height: 158px;
+}
+
+#map {
+    width: 1920px;
+    height: 996px;
+}
+
+
+.main {
+    position: relative; 
+    background-image: url('../../Assets/images/solar_modules.png');
+    background-size: 476mm;
+    text-align: left;
+    padding-top: 225px;
+    padding-left: 560px;
+    width: 476mm;
+    height: 268mm;
+    top: 0;
+}
+
+.mission {
+    margin-top: 39px;
+    width: 476mm;
+    height: 600mm;
+}
+
+.mission .mt-5 {
+    padding-top: 60px;
+}
+
+.quote {
+    margin-top: 39px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+    border-top: 0.5px solid #858585;
+    border-bottom: 0.5px solid #858585;
+}
+
+.quote span{
+    color: #EF941A;
+}
+
+.cleanEnergies {
+    padding-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    background: #F7F7F7;
+    border: 0.5px solid #858585;
+    box-sizing: border-box;
+}
+
+.keys {
+    width: 476mm;
+    height: 900px;
+    
+}
+
+.values {
+    padding-top: 100px;
+    width: 476mm;
+    height: 268mm;
+}
+
+.bt-integrite {
+    width: 220px;
+    height: 220px;
+    background: url("../../Assets/icons/icon_integrite.svg") no-repeat scroll 0 0 transparent ;
+    background-size: 80%;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border: 0;
+}
+
+.bt-ingeniosite {
+    width: 220px;
+    height: 220px;
+    background: url("../../Assets/icons/icon_ingeniosite.svg") no-repeat scroll 0 0 transparent ;
+    background-size: 80%;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border: 0;
+}
+
+.bt-esprit {
+    width: 220px;
+    height: 220px;
+    background: url("../../Assets/icons/icon_esprit.svg") no-repeat scroll 0 0 transparent ;
+    background-size: 80%;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border: 0;
+}
+
+
+.bt-entreneutiat {
+    width: 220px;
+    height: 220px;
+    background: url("../../Assets/icons/icon_entreneutiat.svg") no-repeat scroll 0 0 transparent ;
+    background-size: 80%;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border: 0;
+}

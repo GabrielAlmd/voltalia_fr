@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import "./ScrollButton.css"
+import "./Components.css";
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
@@ -25,7 +25,7 @@ const ScrollButton = () => {
 
   window.addEventListener("scroll", toggleVisible);
 
-  return <Button  variant="light" className="bt_top" onClick={scrollToTop}></Button>;
+  return <Button  variant="basic" className="bt_top" onClick={scrollToTop}></Button>;
 };
 
 export default ScrollButton;

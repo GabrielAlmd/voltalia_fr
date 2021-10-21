@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Components.css";
 import { Navbar, Container, Nav, Image } from "react-bootstrap";
 
 function Header() {
@@ -23,7 +23,7 @@ function Header() {
             >
               <Nav.Link href="/home-presentation#products" varian>Produits</Nav.Link>
               <Nav.Link href="/home-presentation#solutions">Installations domestiques</Nav.Link>
-              <Nav.Link href="/home-presentation#section3">Outils de simulation</Nav.Link>
+              <Nav.Link href="/home-presentation#simulation">Outils de simulation</Nav.Link>
               <Nav.Link href="/about-us">
                 Voltalia: Une entreprise à mission
               </Nav.Link>

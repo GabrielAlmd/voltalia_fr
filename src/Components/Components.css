@@ -1,0 +1,34 @@
+.navbar
+{
+    width: 476mm;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: right;
+}
+
+
+.img-footer {
+    background-image: url('../Assets/images/footer.png');
+    background-size: 100%;
+    width: 476mm;
+    height: 50px;
+}
+
+.footer-icons {
+    padding-left: 0;
+}
+
+.bt_top
+{
+    background-image: url('../Assets/icons/icon_top.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}

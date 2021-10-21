@@ -73,7 +73,6 @@ function Installation() {
                 <p className="t-grey">Être contacté par un conseiller</p>
               </Col>
             </Row>
-            <Row></Row>
           </Col>
         </Row>
       </Container>

@@ -1,23 +1,18 @@
 import React from "react";
-import { Button, Col, Container, Modal, Row } from "react-bootstrap";
+import { Col, Container, Modal, Row } from "react-bootstrap";
 
-function MyVerticallyCenteredModal(props) {
+function SimulationModal(props) {
     return (
         <Modal
             {...props}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
+            size="xl"
             centered
         >
-            <Modal.Header>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    Modal heading
-                </Modal.Title>
-            </Modal.Header>
+            <Modal.Body style={{ textAlign: "center"}}>
+                <h1>Link for simulator</h1>
+            </Modal.Body>
 
-            <Modal.Footer>
-                <Button onClick={props.onHide}>Close</Button>
-            </Modal.Footer>
+            
         </Modal>
     );
 }
@@ -27,14 +22,13 @@ function Simulation() {
 
     return (
         <>
-            <Container fluid className="product">
+            <Container id="simulation" fluid className="product">
                 <Row style={{ alignItems: "center" }}>
                     <Col>
                         <h1 style={{ color: "#97AF0A" }}>
                             Je réalise une simulation pour une installation en toiture
                         </h1>
                         <h3 className="t-grey">
-                            {" "}
                             Le photovoltaïque accessible à tous et pour tous
                         </h3>
                         <h3 className="mt-4" style={{ textAlign: "justify", textJustify: "inter-word" }}>
@@ -49,7 +43,7 @@ function Simulation() {
                             className="bt-simulation"
                         ></button>
 
-                        <MyVerticallyCenteredModal
+                        <SimulationModal
                             show={modalShow}
                             onHide={() => setModalShow(false)}
                         />
